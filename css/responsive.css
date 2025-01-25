@@ -82,7 +82,7 @@
   margin-top: -150px;
 }
 
-.mapSection .container>.row{
+.mapSection .container>.row,.whyChoose .container>.row{
   row-gap: 40px;
 }
 
