@@ -30,6 +30,14 @@
     line-height: 40px;
   }
 
+  .formSection .container>.row{
+    row-gap: 40px;
+  }
+
+  .mapSection iframe{
+    aspect-ratio: 3/4 ;
+    margin-top: -150px;
+  }
 
 }
 
@@ -66,6 +74,15 @@
 
 .Banner .container>.row{
   flex-direction: column-reverse;
+  row-gap: 40px;
+}
+
+.mapSection iframe{
+  aspect-ratio: 1 ;
+  margin-top: -150px;
+}
+
+.mapSection .container>.row{
   row-gap: 40px;
 }
 

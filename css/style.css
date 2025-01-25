@@ -746,3 +746,146 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 16px -6px inset, rgba(0, 0, 0, 0.3) 0
 .faqSection .accordion ul {
   color: var(--grey);
 }
+
+
+
+
+/*---------------
+   Contact Page
+----------------*/
+
+/* new banner css start  */
+
+.NewBanner{
+  padding: 10em 12px; 
+  text-align: center;
+  color: #ffffff;
+}
+
+.NewBanner{
+  background: linear-gradient(to right,#13bfb194,#0b6b63a8), url('../image/contactBanner.png') no-repeat center;
+  background-size: cover;
+}
+
+
+/* new banner css end */
+
+/* form section start */
+
+.formPart {
+  padding: 60px;
+  background-color: var(--lightBgGreen);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+.ContactForm input:not(.form-check-input),
+.ContactForm textarea {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  padding: 0 0 4px 0;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #0000001a;
+  background-color: #02010100;
+  margin-bottom: 24px;
+}
+.ContactForm .form-control:focus {
+  background-color: #02010100;
+  border-color: #0000001a;
+  outline: 0;
+  box-shadow: none;
+}
+.ContactForm .form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+  box-shadow: none;
+}
+.ContactForm textarea {
+  resize: none;
+}
+.ContactForm textarea:focus-visible {
+  outline: none;
+}
+.ContactForm button {
+  border: none;
+}
+
+.ContactForm .input-group > .form-control,
+.input-group > .form-floating,
+.input-group > .form-select {
+  padding: 0 0 20px 0;
+}
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus {
+  box-shadow: none;
+}
+
+.formSection.defaultPadding{
+  padding-bottom: 120px;
+}
+
+.formSection .modal-header {
+  justify-content: center;
+  position: relative;
+}
+.formSection .modal-header .btn-close {
+ margin: 0 !important;
+ position: absolute;
+ right: 14px;
+ top: 14px;
+}
+
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.option {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.option img {
+  width: 50px;
+  height: 50px;
+}
+
+/* form section end */
+
+
+/* map section  start */
+.mapSection{
+  background: linear-gradient(to right, rgba(19, 191, 177, 0.58), rgba(11, 107, 99, 0.66)) 0% 0% / cover, url('../image/mapImg.png') center center no-repeat;
+  background-size: cover;
+}
+
+.mapSection iframe{
+  aspect-ratio: 1;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -150px;
+}
+
+
+.contactInfo{
+  background: #ffffffd6;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  justify-content: space-between;
+}
+
+.contactCard{
+  position: relative;
+  padding: 0 12px ;
+  display: flex;
+}
+.contactText{
+  flex-shrink: 1;
+}
+.contactIco{
+  margin-right: 8px;
+}
+
+/* map section end */
